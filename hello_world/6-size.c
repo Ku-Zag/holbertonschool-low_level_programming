@@ -9,8 +9,8 @@ int main(void)
 	char a;
 	int b;
 	long int c;
-	long long int c;
-	float d;
+	long long int d;
+	float e;
 	pritnf("Size of a char: %lu byte(s)\n", sizeof(char));
 	pritnf("Size of a int: %lu byte(s)\n", sizeof(int));
 	pritnf("Size of a long int: %lu byte(s)\n", sizeof(long int));
