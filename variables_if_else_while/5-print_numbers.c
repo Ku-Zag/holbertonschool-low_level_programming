@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-        char lowercase;
+	char lowercase;
 
-        for (lowercase = '0'; lowercase <= '9'; lowercase++)
-        {
-                putchar(lowercase);
-        }
-        putchar('\n');
-        return (0);
+	for (lowercase = '0'; lowercase <= '9'; lowercase++)
+	{
+		putchar(lowercase);
+	}
+	putchar('\n');
+	return (0);
 }
