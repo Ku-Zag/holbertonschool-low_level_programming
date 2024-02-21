@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{	
+{
 	char lowercase;
 	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	{
