@@ -5,12 +5,12 @@
  *
  * Return: Always 0 (Success)
  */
-int i;
 int main(void)
-{
-	for (i = 97; i <= 122; i++)
+{	
+	char lowercase;
+	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	{
-		putchar(i);
+		putchar(lowercase);
 	}
 	putchar('\n');
 	return (0);
