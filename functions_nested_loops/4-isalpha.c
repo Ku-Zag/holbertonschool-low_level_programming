@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - Entry point
+ * _isalpha - Entry point
  * @c: An input character
  * Return: Always 0 (Success)
  *
