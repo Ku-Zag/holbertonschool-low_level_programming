@@ -5,12 +5,14 @@
  *
  * Return: Always 0 (Succes)
  */
-int main(void)
-{	
-	for (char c = 'a'; char c <= 'z'; char c++)
-	{
-		_putchar(char c);
-	}
+void print_alphabet(void)
+{
+	char c = 'a';
 
-	return (0);
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+	}
+	_putchar('\n');
 }
