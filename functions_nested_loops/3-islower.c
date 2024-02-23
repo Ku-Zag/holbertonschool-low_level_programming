@@ -4,7 +4,7 @@
  * _islower - Entry point
  *
  * Return: Always 0 (Success)
- * 
+ *
  */
 
 int _islower(int c)
@@ -20,5 +20,5 @@ int _islower(int c)
 		}
 	}
 
-	return(value);
+	return (value);
 }
