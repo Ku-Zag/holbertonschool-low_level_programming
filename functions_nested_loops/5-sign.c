@@ -2,7 +2,7 @@
 
 /**
  * print_sign - Entry point
- * @c - parameter
+ * @n - parameter
  * Return: 0
  */
 
