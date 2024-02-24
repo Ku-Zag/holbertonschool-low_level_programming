@@ -3,6 +3,8 @@
 /**
  * _abs - Entry point
  *
+ * @a: integer
+ * Description: i do knwo
  * Return: 0
  */
 
