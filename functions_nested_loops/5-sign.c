@@ -2,7 +2,7 @@
 
 /**
  * print_sign - Entry point
- * @n - parameter
+ * @n: parameter
  * Description: funtion prints sign of number
  * Return: 0
  */
