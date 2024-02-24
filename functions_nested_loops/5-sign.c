@@ -3,7 +3,7 @@
 /**
  * print_sign - Entry point
  *
- * Return: 0 
+ * Return: 0
  */
 
 int print_sign(int n)
