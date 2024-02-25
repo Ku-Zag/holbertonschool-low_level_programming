@@ -2,8 +2,8 @@
 
 /**
  * times-table - Enrty
- * Return: nothig
- * Description: print time table
+ * Description: It prints 9 times table starting with 0
+ * Return: not
  */
 
 void times_table(void)
