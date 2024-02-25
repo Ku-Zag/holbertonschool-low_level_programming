@@ -22,17 +22,15 @@ void times_table(void)
 
 			if (c < 10)
 			{
+				if (b != 0)
+				{
+					_putchar(' ');
+				}
 				_putchar(c + '0');
 				if (b != 9)
 				{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
-				}
-				else if (4 < c && c < 10)
-				{
-					_putchar(',');
-					_putchar(' ');
 				}
 			}
 			else
