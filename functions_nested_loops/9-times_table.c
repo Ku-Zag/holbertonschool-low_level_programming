@@ -2,6 +2,7 @@
 /**
  * times-table - Enrty
  * Return: nothig
+ * Description: print time table
  */
 void times_table(void)
 {
