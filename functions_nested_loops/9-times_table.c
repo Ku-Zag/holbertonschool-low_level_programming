@@ -1,12 +1,8 @@
 #include "main.h"
-
 /**
- *
- *
- *
- *
+ * times-table - Enrty
+ * Return: nothig
  */
-
 void times_table(void)
 {
 	int a = 0;
@@ -24,10 +20,9 @@ void times_table(void)
 			if (c < 10)
 			{
 				if (b != 0)
-				{
 					_putchar(' ');
-				}
 				_putchar(c + '0');
+
 				if (b != 9)
 				{
 				_putchar(',');
