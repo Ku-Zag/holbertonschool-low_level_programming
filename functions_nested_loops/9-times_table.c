@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * times-table - Enrty
+ * times_table - Check description
  * Description: It prints 9 times table starting with 0
- * Return: not
+ * Return: Nothing.
  */
-
 void times_table(void)
 {
 	int a = 0;
