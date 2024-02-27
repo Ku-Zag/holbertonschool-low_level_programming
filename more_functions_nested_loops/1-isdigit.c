@@ -10,7 +10,7 @@ int _isdigit(int c)
 	int n;
 	int value = 0;
 
-	for (n ='0'; n <= '9'; n++)
+	for (n = '0'; n <= '9'; n++)
 	{
 		if (c == n)
 		{
