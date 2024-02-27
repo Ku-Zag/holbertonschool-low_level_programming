@@ -9,6 +9,7 @@
 int mul(int a, int b)
 {
 	int value;
+
 	value = a * b;
-	return(value);
+	return (value);
 }
