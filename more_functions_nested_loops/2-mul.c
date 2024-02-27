@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * mul - entry
- * @a - interger
- * @b - integer
+ * @a: integer
+ * @b: integer
  * Description: mul mulyiplies integers
- * Return - value
+ * Return: value
  */
 int mul(int a, int b)
 {
