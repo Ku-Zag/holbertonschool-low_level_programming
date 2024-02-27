@@ -1,5 +1,8 @@
 #include "main.h"
 /**
+ * print_numbers - entry
+ * Description: prints numbers
+ * Return: void
  */
 void print_numbers(void)
 {
