@@ -2,7 +2,7 @@
 /**
  * -isupper - enrty
  * @c: character
- * Description: return 1 if uppercase, if not 0
+ * Description: _isupper returns 1 if uppercase, if not 0
  * Return: 0
  */
 int _isupper(int c)
