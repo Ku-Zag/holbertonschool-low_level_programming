@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * -isupper - enrty
+ * _isupper - enrty
  * @c: character
  * Description: _isupper returns 1 if uppercase, if not 0
  * Return: 0
