@@ -2,7 +2,7 @@
 /**
  * print_triangle - entry
  * @size: size
- * Description: print_triangle 
+ * Description: print_triangle
  * Return: void
  */
 void print_triangle(int size)
