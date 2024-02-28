@@ -7,9 +7,8 @@
 int main(void)
 {
 	int n;
-	int a;
 
-	for (n = 0; n <=100; n++)
+	for (n = 1; n <=100; n++)
 	{
 		if (n != 100)
 		{
@@ -29,4 +28,5 @@ int main(void)
 			printf("FizzBuzz");
 	}
 	putchar('\n');
+	return (0);
 }
