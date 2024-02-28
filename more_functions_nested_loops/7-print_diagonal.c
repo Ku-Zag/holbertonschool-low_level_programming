@@ -2,7 +2,7 @@
 /**
  * print_diogonal - entry
  * @n: integer
- * Description: prints diognal
+ * Description: print_diogonal prints diognal
  * Return: void
  */
 void print_diagonal(int n)
