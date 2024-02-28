@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_diogonal - entry
+ * print_diagonal - entry
  * @n: integer
- * Description: print_diogonal prints diognal
+ * Description: print_diagonal prints diognal
  * Return: void
  */
 void print_diagonal(int n)
