@@ -7,9 +7,12 @@
  */
 int main(void)
 {
-    char *str;
+	char *str;
+	char *chr;
 
-    str = "0123456789A";
-    puts_half(str);
-    return (0);
+	str = "0123456789";
+	puts_half(str);	
+	chr = "012345678";
+	puts_half(chr);
+	return (0);
 }
