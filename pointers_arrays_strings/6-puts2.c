@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts2 - entru
- * @s - string
+ * @s: string
  * Description: puts2 puts eoc
  */
 void puts2(char *s)
