@@ -1,5 +1,9 @@
 #include "main.h"
 /**
+ * _strcpy - entru
+ * @dest: destination
+ * @char: character
+ * Description: _strcpy copy string from one p to another
  */
 char *_strcpy(char *dest, char *src)
 {
