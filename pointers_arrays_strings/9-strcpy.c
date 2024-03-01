@@ -2,8 +2,9 @@
 /**
  * _strcpy - entru
  * @dest: destination
- * @char: character
+ * @src: source
  * Description: _strcpy copy string from one p to another
+ * Return: char
  */
 char *_strcpy(char *dest, char *src)
 {
