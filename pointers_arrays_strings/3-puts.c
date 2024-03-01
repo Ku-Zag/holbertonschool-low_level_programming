@@ -1,5 +1,9 @@
 #include "main.h"
 /**
+ * _puts - enrty
+ * @str: string
+ * Description: _puts puts puts
+ * Return: void
  */
 void _puts(char *str)
 {
