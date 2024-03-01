@@ -12,5 +12,4 @@ int _strlen(char *s)
 	while (s[n] != 0)
 		n++;
 	return (n);
-		
 }
