@@ -1,5 +1,9 @@
 #include "main.h"
 /**
+ * reverse_array - entry
+ * @a: array
+ * @n: lenght of arraay
+ * Description: reverse_array
  */
 void reverse_array(int *a, int n)
 {
@@ -12,7 +16,7 @@ void reverse_array(int *a, int n)
 		i = a[l];
 		a[l] = a[r];
 		a[r] = i;
-		n--;
+		r--;
 		l++;
 	}
 }
