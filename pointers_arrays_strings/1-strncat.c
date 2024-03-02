@@ -3,6 +3,7 @@
  * _strncat - entry
  * @dest: destionation
  * @src: soruce
+ * @n: integre
  * Description: _strncat
  * Return: char
  */
