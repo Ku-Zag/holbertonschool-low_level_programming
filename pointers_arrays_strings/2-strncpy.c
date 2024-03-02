@@ -3,30 +3,24 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	char *ptr = dest, *str = src;
-	int l = 0, sl = 0;
-
-	if (*src == 0)
-		return dest;
+	int srclen = 0, i = 0;
+	char *temp = dest, *start = src;
 
 	while (*src)
 	{
-		sl++;
+		srclen++;
 		src++;
 	}
-	sl++;
 
-	if (n > sl)
-		n = sl;
+	srclen++;
 
-	src = str;
+	if (n > srclen)
+		n = srclen;
 
-	while (l < n)
-	{
-		*dest = *src;
-		l++;
-		dest++;
-		src++;
-	}
-	return (ptr);
+	src = start;
+
+	for (; i < n; i++)
+		*dest++ = *src++;
+
+	return (temp);
 }
