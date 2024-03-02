@@ -11,7 +11,7 @@ char *_strncpy(char *dest, char *src, int n)
 		sl++;
 		src++;
 	}
-	src++;
+	sl++;
 
 	if (n > sl)
 		n = sl;
