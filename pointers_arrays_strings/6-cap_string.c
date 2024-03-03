@@ -7,7 +7,7 @@
  */
 char *cap_string(char *c)
 {
-	char *p = c; 
+	char *p = c;
 
 	while (*c)
 	{
