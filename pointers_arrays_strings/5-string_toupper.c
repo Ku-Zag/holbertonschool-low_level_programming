@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * string_touper - entry
+ * string_toupper - entry
  * @c: char
  * Description: string_toupper changes lower to upper
  * Return: char
