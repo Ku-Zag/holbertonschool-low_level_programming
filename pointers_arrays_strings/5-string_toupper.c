@@ -2,7 +2,7 @@
 /**
  * string_touper - entry
  * @c: char
- * Description: *string_toupper
+ * Description: string_toupper changes lower to upper
  * Return: char
  */
 char *string_toupper(char *c)
