@@ -1,2 +1,3 @@
 pointer points to pointer that points to pointer that pointed by pointer
-second seconf
+siecond seconf
+third now soupe??? 
