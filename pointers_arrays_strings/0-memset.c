@@ -1,5 +1,15 @@
 #include "main.h"
-int main()
+/**
+ */
+char *_memset(char *s, char b, unsigned int n)
 {
-    printf("saheddin goycek oglandi");
+	unsigned int l = 0;
+	char *ptr = s;
+	
+	while (l < n)
+	{
+		ptr[l] = b;
+		l++;
+	}
+	return (ptr);
 }
