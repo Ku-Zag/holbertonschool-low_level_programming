@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ * print_diagrams - entry
+ * @a: matrix
+ * @size: size of matrix
+ * Description: print_diagrams
+ * Return: void
  */
 void print_diagsums(int *a, int size)
 {
