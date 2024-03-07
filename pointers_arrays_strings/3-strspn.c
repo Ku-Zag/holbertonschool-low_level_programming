@@ -2,7 +2,7 @@
 /**
  * _strspn - emtry
  * @s: string
- * @accepy: accpet
+ * @accept: accpet
  * Description: _strspn
  * Return: unsig. char
  */
