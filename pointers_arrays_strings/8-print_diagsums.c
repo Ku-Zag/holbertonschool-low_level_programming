@@ -11,8 +11,8 @@ void print_diagsums(int *a, int size)
 {
 	int l = 0;
 	int n = 0;
-	unsigned long int sum1 = 0;
-	unsigned long int sum2 = 0;
+	long long int sum1 = 0;
+	long long int sum2 = 0;
 
 	while (l < size && n < size)
 	{
@@ -21,5 +21,5 @@ void print_diagsums(int *a, int size)
 		l++;
 		sum2 += a[l * size - n];
 	}
-	printf("%lu, %lu\n", sum1, sum2);
+	printf("%lld, %lld\n", sum1, sum2);
 }
