@@ -17,12 +17,11 @@ char *_strpbrk(char *s, char *accept)
 
 		if (*s >= 'a' && *s <= 'z')
 		{
-			while(*accept)
+			while (*accept)
 			{
 				if (*s == *accept)
 				{
 					return (s);
-					break;
 				}
 				accept++;
 			}
