@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagrams - entry
+ * print_diagsums - entry
  * @a: matrix
  * @size: size of matrix
  * Description: print_diagrams
