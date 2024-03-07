@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strpbrk - entry
  * @s: string
@@ -9,7 +10,6 @@
 char *_strpbrk(char *s, char *accept)
 {
 	char *p = accept;
-	char *ps = s;
 
 	while (*s)
 	{
@@ -30,5 +30,5 @@ char *_strpbrk(char *s, char *accept)
 		}
 		s++;
 	}
-	return(ps);
+	return (NULL);
 }
