@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ * _strstr - entry
+ * @haystack: enormous
+ * @needle: tiny
+ * Description: _strstr
+ * Return: char
  */
 char *_strstr(char *haystack, char *needle)
 {
