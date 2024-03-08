@@ -1,11 +1,8 @@
 #include "main.h"
 /**
- * _sqrt_recursion - entru
+ * find_sqrt - entry
  * @l: multip
  * @n: integer
- * Description: sqrt ffinder
- * Return: integer
- * find_sqrt - find sqrt
  * Description: sqrt ffinder
  * Return: integer
  */
@@ -21,7 +18,12 @@ int find_sqrt(int l, int n)
 
 	return (find_sqrt(l + 1, n));
 }
-
+/**
+ * _sqrt_recursion - continue
+ * @n: integer
+ * Description: find squrare root
+ * Return: integrer
+ */
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
