@@ -1,12 +1,12 @@
 #include "main.h"
+
+int find_prime(int l, int n);
 /**
  * is_prime_number - entry
  * @n: integr
  * Description: display 1 if if prime otherwise 0
  * Return: integre
  */
-int find_prime(int l, int n);
-
 int is_prime_number(int n)
 {
 	if (n <= 1)
