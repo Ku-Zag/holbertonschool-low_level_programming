@@ -1,9 +1,11 @@
 #include "main.h"
 /**
  * _sqrt_recursion - entru
- * find_sqrt - find sqrt
  * @l: multip
  * @n: integer
+ * Description: sqrt ffinder
+ * Return: integer
+ * find_sqrt - find sqrt
  * Description: sqrt ffinder
  * Return: integer
  */
