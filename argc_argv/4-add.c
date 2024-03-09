@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main - entru
+ * @argc: argument
+ * @argv: string
+ * Description: argc argv
+ * Return: inteher
+ */
 int main(int argc, char *argv[])
 {
 	int i = 1;
