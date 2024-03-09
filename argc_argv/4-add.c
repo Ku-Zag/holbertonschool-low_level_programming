@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * main - entru
  * @argc: argument
@@ -9,6 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
+	int l = 0;
 	int i = 1;
 	int sum = 0;
 
@@ -18,10 +20,14 @@ int main(int argc, char *argv[])
 	{
 		while(i < argc)
 		{
-			if (atoi(argv[i]) == 0)
+			while (argv[i][l])
 			{
-				printf("Error\n");
-				return (1);
+				if (!(isdigit(argv[i][l])))
+				{
+					printf("Error\n");
+					return (1);
+				}
+				l++;
 			}
 			sum += atoi(argv[i]);
 			i++;
