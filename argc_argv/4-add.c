@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	else
 	{
-		while(i < argc)
+		while (i < argc)
 		{
 			while (argv[i][l])
 			{
