@@ -18,7 +18,7 @@ char *_strdup(char *str)
 		return (0);
 	if (l == 0)
 		return (NULL);
-	if (str == NULL)
+	if (str == 0)
 		return (NULL);
 	while (i < l)
 	{
