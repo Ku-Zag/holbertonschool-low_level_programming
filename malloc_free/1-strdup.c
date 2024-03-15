@@ -5,11 +5,12 @@
  */
 char *_strdup(char *str)
 {
-	/*if (str == NULL)*/
-		
 	char *ptr;
 	int i = 0;
 	int l = 0;
+
+	if (str == NULL)
+		return (NULL);
 
 	while (str[l] != 0)
 		l++;
@@ -19,8 +20,6 @@ char *_strdup(char *str)
 	if (ptr == NULL)
 		return (0);
 	if (l == 0)
-		return (NULL);
-	if (str == NULL)
 		return (NULL);
 	while (i < l)
 	{
