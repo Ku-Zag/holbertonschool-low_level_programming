@@ -16,8 +16,6 @@ char *_strdup(char *str)
 	
 	if (l == 0)
 		return (NULL);
-	if (ptr == NULL)
-		return (NULL);
 	if (str == NULL)
 		return (NULL);
 	while (i < l)
