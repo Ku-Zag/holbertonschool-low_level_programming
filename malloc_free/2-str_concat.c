@@ -1,6 +1,11 @@
 #include <stdlib.h>
 #include "main.h"
 /**
+ * str_concat - entry
+ * @s1: string 1
+ * @s2: string 2
+ * Description: concatenates strings
+ * Return: string
  */
 char *str_concat(char *s1, char *s2)
 {
