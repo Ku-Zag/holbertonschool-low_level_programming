@@ -6,6 +6,7 @@
  * @age: GE
  * @owner: slaver
  * Description: five night of frefddy
+ * Return: char
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
