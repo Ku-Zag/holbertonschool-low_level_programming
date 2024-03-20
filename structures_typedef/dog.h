@@ -1,5 +1,8 @@
-#include <stdio.h>
 /**
+ * dog - dog
+ * @name: dog name
+ * @age: age of puppy
+ * @owner: murderer
  */
 struct dog
 {
