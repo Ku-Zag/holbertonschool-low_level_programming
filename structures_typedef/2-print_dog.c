@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
+ * print_dog - prints info bout dog
+ * @d: pointer to dog
+ * Description: doggy dooog()
  */
 void print_dog(struct dog *d)
 {
