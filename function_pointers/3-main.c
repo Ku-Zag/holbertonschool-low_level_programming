@@ -1,4 +1,4 @@
-#include "function_pointers.h"
+#include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
 /**
@@ -10,7 +10,7 @@
  */
 int main (int argc, char *argv[])
 {
-	int op_checker(int, int);
+	int (*op_checker)(int, int);
 
 	if (argc != 4)
 	{
