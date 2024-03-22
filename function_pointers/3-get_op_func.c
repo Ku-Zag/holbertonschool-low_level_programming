@@ -1,6 +1,10 @@
 #include "3-calc.h"
 #include <stdlib.h>
 /**
+ * get_op_func - getop
+ * @s: string
+ * Description: des
+ * Return: int
  */
 int (*get_op_func(char *s))(int, int)
 {
