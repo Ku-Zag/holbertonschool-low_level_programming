@@ -13,7 +13,7 @@ int (*get_op_func(char *s))(int, int)
 	{NULL, NULL}
 	};
 
-	while (i < 5)
+	for  (i = 0; i < 5; i++)
 	{
 		if (ops[i].op == *s && *(s + 1) == 0)
 			return (ops[i].f)
