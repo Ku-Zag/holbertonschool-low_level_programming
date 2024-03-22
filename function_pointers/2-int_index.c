@@ -6,6 +6,7 @@
  * @array: array
  * @cmp: ptr to func
  * Description: compares integer and prints first matchi's index in array
+ * Return: integer
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
