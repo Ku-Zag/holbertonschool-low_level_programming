@@ -8,7 +8,7 @@
  * Description: gives argment
  * Return: integer
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int (*op_checker)(int, int);
 
