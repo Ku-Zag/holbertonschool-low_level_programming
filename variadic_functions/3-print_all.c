@@ -21,6 +21,7 @@ void print_char(va_list args)
 void print_string(va_list args)
 {
 	char *s;
+
 	s = va_arg(args, char *);
 
 	if (s == NULL)
@@ -33,8 +34,7 @@ void print_string(va_list args)
 
 void print_all(const char * const format, ...)
 {
-	types list[] = 
-	{
+	types list[] = {
 		{"i", print_int},
 		{"f", print_float},
 		{"c", print_char},
@@ -45,6 +45,7 @@ void print_all(const char * const format, ...)
 	int i = 0;
 	int j = 0;
 	char *separator = "";
+
 	va_start(args, format);
 
 	while (format && format[i])
