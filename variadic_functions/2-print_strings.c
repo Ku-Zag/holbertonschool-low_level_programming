@@ -21,9 +21,15 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		word = va_arg(args, char *);
 
 		if (word == NULL)
+		{
 			printf("(nil)");
+			continue;
+		}
 		if (separator == NULL)
+		{
 			printf("%s", word);
+			continue;
+		}
 		if (i != n - 1)
 			printf("%s%s", word, separator);
 		else
