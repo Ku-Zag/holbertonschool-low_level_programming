@@ -3,10 +3,14 @@
  */
 void free_list(list_t *head)
 {
+	list_t *current;
+
 	while (head)
 	{
-		free(head->str);
-		free(head->next);
-		free(head);
+		current = head;
+		head = head->next;
+		free(current->str);
+		free(current);
 	}
+	free(head);
 }
