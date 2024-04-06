@@ -1,5 +1,10 @@
-#include "lists"
+#include "lists.h"
 /**
+ * add_node_end - entry
+ * @head: head
+ * @str: string
+ * Description: adds end node
+ * Return: adress of end_node
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
