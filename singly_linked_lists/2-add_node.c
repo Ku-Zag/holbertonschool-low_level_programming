@@ -1,17 +1,18 @@
-#include <lists.h>
+#include "lists.h"
 /**
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	const char *dup = strdup(str);
-	const list_t **new_node = head;
+	list_t *new_node;
 	unsigned int i = 0;
-	while (head)
-	{
-		if (head->dup)
-			printf("[%i] %s", new_node->len, new_node->dup);
-		else
-			return (NULL);
-	}
-	return (dup);
+
+	if (new_node == NULL)
+		return (NULL);
+	while (str[i])
+		i++;
+	new_node->len = i;
+	new_node->str = strdup(str);
+	new_node->next = head;
+	*head = new_node;
+	return (new_node);
 }
