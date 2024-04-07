@@ -3,7 +3,7 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned int i = 0, test = 35768;
+	unsigned int i = 0, test = 32768;
 
 	if (n == 0)
 	{
