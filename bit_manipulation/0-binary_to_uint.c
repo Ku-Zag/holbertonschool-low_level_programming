@@ -1,5 +1,9 @@
 #include "main.h"
 /**
+ * binary_to_uint - binary to int
+ * @b: bit 1 0
+ * Description: bit bit
+ * Return: 10 base
  */
 unsigned int binary_to_uint(const char *b)
 {
