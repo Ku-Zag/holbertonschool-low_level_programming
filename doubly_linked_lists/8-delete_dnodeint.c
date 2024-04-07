@@ -1,5 +1,10 @@
 #include "lists.h"
 /**
+ * delete_dnodeint_at_index - deletes nth node
+ * @head: head
+ * @index: index of nth node
+ * Description: node del
+ * Return: int
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
@@ -29,5 +34,5 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	if (cur->next)
 		cur->next->prev = del;
 	free(cur);
-	return (1);	
+	return (1);
 }
