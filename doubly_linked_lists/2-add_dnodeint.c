@@ -1,7 +1,8 @@
 #include "lists.h"
 /**
  * add_dnodeint - adds node to start
- * @head: head, @n: integer
+ * @head: head
+ * @n: integer
  * Description: intger in nodes
  * Return: adress of new node
  */
