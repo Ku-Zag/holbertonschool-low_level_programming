@@ -1,5 +1,10 @@
 #include "main.h"
 /**
+ * get_bit - get bit
+ * @n: int
+ * @index: index
+ * Description: des
+ * Return: int
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
