@@ -2,11 +2,8 @@
 
 /**
  * set_bit - set bit to 1
- *
  * @n: inet
- *
- * @index: index
- *
+ * @index: indec
  * Return: bit
  */
 
@@ -19,4 +16,4 @@ int set_bit(unsigned long int *n, unsigned int index)
 	}
 
 	return (-1);
-
+}
