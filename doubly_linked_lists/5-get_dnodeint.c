@@ -1,6 +1,8 @@
 #include "lists.h"
 #include <limits.h>
 /**
+ * get_dnodeint_at_index - get nth node
+ * 
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
@@ -10,7 +12,6 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	if (index > max)
 	{
 		printf("(nil)\n");
-		return;
 	}
 	while (i < index)
 	{
