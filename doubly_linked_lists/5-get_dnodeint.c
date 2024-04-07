@@ -2,7 +2,10 @@
 #include <limits.h>
 /**
  * get_dnodeint_at_index - get nth node
- * 
+ * @head: head
+ * @index: nth
+ * Description: nth node
+ * Return: head
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
@@ -15,7 +18,10 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	}
 	while (i < index)
 	{
-		head = head->next;
+		if (head->next != NULL)
+			head = head->next;
+		else if (head->next == NULL && i < index)
+			return(NULL);
 		i++;
 	}
 	return (head);
