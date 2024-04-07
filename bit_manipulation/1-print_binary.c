@@ -8,7 +8,7 @@ void print_binary(unsigned long int n)
 {
 	unsigned long int i = 0, test = 32768;
 	if (n > test)
-		return);
+		return;
 	if (n == 0)
 	{
 		_putchar('0');
