@@ -1,10 +1,16 @@
 #include "lists.h"
 /**
+ * add_dnodeint_t - entru
+ * @head: head
+ * @n: int
+ * Description: int head
+ * Return: adress of new node
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new;
 	dlistint_t *current = *head;
+
 	new = malloc(sizeof(dlistint_t));
 
 	if (new == NULL)
