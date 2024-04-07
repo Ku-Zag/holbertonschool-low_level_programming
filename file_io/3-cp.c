@@ -1,15 +1,11 @@
 #include "main.h"
-
 /**
- * ain - Copies content of file to another
- *
- * @argc: int
- *
- * @argv: double pointer
- *
- * Return: Copy of file
+ * main - Copy file to another
+ * @argc: argument
+ * @argv: string of arg
+ * Description: bin
+ * Return: desciraptor
  */
-
 int main(int argc, char **argv)
 {
 	int fd, fd2, filecheck;
