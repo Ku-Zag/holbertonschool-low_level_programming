@@ -7,15 +7,15 @@ void print_binary(unsigned long int n)
 
 	if (n == 0)
 		_putchar('0');
-	while (max)
+	while (test)
 	{
-		if (i = 1 && (n & test) == 0)
+		if (i == 1 && (n & test) == 0)
 			_putchar('0');
 		else if ((n & test) == 1)
 		{
 			_putchar('1');
 			i = 1;
 		}
-		max >> 1;
+		test >>= 1;
 	}
 }
