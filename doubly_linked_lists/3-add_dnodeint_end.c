@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_dnodeint_t - entru
+ * add_dnodeint_end - entru
  * @head: head
  * @n: int
  * Description: int head
