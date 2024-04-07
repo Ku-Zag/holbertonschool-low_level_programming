@@ -1,5 +1,10 @@
 #include "main.h"
 /**
+ * read_textfile - reads file
+ * @filename: name of file
+ * @letters: letters of text
+ * Description: bytes of buffer
+ * Return: file desdcriptor
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
