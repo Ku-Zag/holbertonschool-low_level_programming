@@ -1,5 +1,10 @@
 #include "main.h"
 /**
+ * append_next_to_file - entry
+ * @filename: name of file
+ * @text_content: text
+ * Description: bin
+ * Return: descriptor
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
