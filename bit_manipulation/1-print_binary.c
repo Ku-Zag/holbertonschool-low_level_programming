@@ -6,7 +6,10 @@ void print_binary(unsigned long int n)
 	unsigned int i = 0, test = 35768;
 
 	if (n == 0)
+	{
 		_putchar('0');
+		return;
+	}
 	while (test)
 	{
 		if (i == 1 && (n & test) == 0)
