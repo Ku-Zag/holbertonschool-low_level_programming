@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * append_next_to_file - entry
+ * append_text_to_file - entry
  * @filename: name of file
  * @text_content: text
  * Description: bin
